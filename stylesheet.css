@@ -5,17 +5,30 @@ h3 {
     font-stretch: none;
     text-align: center;
 }
-h1 {
+.header {
     text-align: center;
     color: crimson;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-style: italic;
 }
 
 body {
     background-color: beige;
     font-weight: bold;
     font-style: italic;
+    /* background-image: url('photos/background_picture.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+.logo-background {
+    background-image: url('photos/headerimage.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: 500%; */
+    vertical-align: auto;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
 }
 .border {
     text-align: center;
@@ -28,32 +41,76 @@ body {
     border-radius: 10px;
     margin: 20px auto 20px auto;
 }
-p {
-    color: gray;
-    text-align: center;
-    padding: 10px;
-}
 
-li {
+/* nav > ul > li {
     display: inline;
     margin-right: 15%;
-}
-ul {
+    padding: 5px;
+} */
+/* ul {
     border: 3px solid;
     border-color: crimson silver crimson silver;
     padding: 2.5px;
-}
+    background-color: grey;
+} */
 a:link {
     color: black;
     text-decoration: none;
 }
 a:hover {
-    color: gray;
+    color: crimson;
     text-decoration: underline;
 }
 a:visited {
-    color: crimson;
+    color: black;
 }
 a:active {
     color: #421313;
+}
+
+.header-border {
+    border: 25px solid none;
+}
+table {
+    width: 50%;
+}
+th {
+    padding: 7px 7px 7px 7px;
+    border-top: 2px solid black;
+    border-bottom: 6px solid black;
+}
+
+td {
+    border: 2px dotted grey;
+    background-color: grey;
+    padding: 5px 5px 5px 5px;
+}
+
+.table-one {
+    background-color: white;
+}
+.table-two {
+    background-color: white;
+}
+table > a:link {
+    color: red;
+}
+
+.navbar {
+    border-radius: 0 0 5px 5px;
+}
+
+.panel,
+.panel-heading,
+.panel-body {
+    border: 1px solid black;
+}
+
+.panel-heading {
+    background-color: rgb(220, 20, 60);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.active {
 }
