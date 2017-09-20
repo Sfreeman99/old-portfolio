@@ -112,5 +112,6 @@ table > a:link {
     font-weight: bolder;
 }
 
-.active {
+.nav-pills:active {
+    color: red;
 }
